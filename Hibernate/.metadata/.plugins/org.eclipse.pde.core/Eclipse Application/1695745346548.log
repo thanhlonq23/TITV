@@ -1,0 +1,10 @@
+!SESSION 2023-09-26 23:22:26.333 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=19.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=vi_VN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -product org.eclipse.epp.package.jee.product -data C:\Users\Nguyen Long\Documents\Code\Java\Hibernate/../runtime-EclipseApplication -dev file:C:/Users/Nguyen Long/Documents/Code/Java/Hibernate/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86_64 -consoleLog
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-09-26 23:22:32.191
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'

@@ -1,0 +1,24 @@
+content_assist_autoactivation_triggers_java=.
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="model.cat"><rhs name\="model.cat"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="dao.DAO_Interface"><rhs name\="dao.Cat_DAO"/><rhs name\="dao.Person_DAO"/><rhs name\="dao.Author_DAO"/><rhs name\="dao.Book_DAO"/></lhs><lhs name\="dao.Cat_DAO"><rhs name\="dao.Cat_DAO"/></lhs><lhs name\="java.util.Iterator"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.util.Scanner"/></lhs><lhs name\="java.util.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.sql.Date"><rhs name\="java.sql.Date"/></lhs><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="model.Person"><rhs name\="model.Person"/></lhs><lhs name\="dao.Person_DAO"><rhs name\="dao.Person_DAO"/></lhs><lhs name\="model.Author"><rhs name\="model.Author"/></lhs><lhs name\="model.Book"><rhs name\="model.Book"/></lhs><lhs name\="dao.Author_DAO"><rhs name\="dao.Author_DAO"/></lhs><lhs name\="dao.Book_DAO"><rhs name\="dao.Book_DAO"/></lhs><lhs name\="model.Customer"><rhs name\="model.Customer"/></lhs><lhs name\="model.Order"><rhs name\="model.Order"/></lhs></history>
+content_assist_number_of_computers=21
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.exception.name=e
+org.eclipse.jdt.ui.formatterprofiles.version=23
+org.eclipse.jdt.ui.gettersetter.use.is=true
+org.eclipse.jdt.ui.ignorelowercasenames=true
+org.eclipse.jdt.ui.importorder=java;javax;org;com;
+org.eclipse.jdt.ui.ondemandthreshold=99
+org.eclipse.jdt.ui.overrideannotation=true
+org.eclipse.jdt.ui.staticondemandthreshold=99
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.typefilter.disabled=java.awt.*;java.rmi.*;org.graalvm.*
+org.eclipse.jdt.ui.typefilter.enabled=com.sun.*;io.micrometer.shaded.*;jdk.*;sun.*;java.awt.List
+org.eclipse.jdt.ui.visibility.order=B,V,R,D,
+outlinesortoption=T,SF,SI,SM,F,I,C,M,
+sourceHoverBackgroundColor=44,49,53
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

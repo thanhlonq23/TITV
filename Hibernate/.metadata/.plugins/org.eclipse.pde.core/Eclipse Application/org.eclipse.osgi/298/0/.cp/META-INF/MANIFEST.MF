@@ -1,0 +1,90 @@
+Manifest-Version: 1.0
+Created-By: 1.4.2_09-b05 (Sun Microsystems Inc.)
+Build-Jdk-Spec: 17
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.datatools.intro; singleton:=true
+Bundle-Version: 1.15.0.202305310959
+Bundle-ManifestVersion: 2
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-datatools/d
+ atatools.git;path="plugins/docs/org.eclipse.datatools.intro";commitId=6
+ 1f062f242ad7cbaf48e33eac373c2fbf8d7d55b
+
+Name: about.properties
+SHA-256-Digest: 6DaAFEHoSaql0uZnOKaifVFvarnpmsajh5MCsH9bX30=
+
+Name: plugin.xml
+SHA-256-Digest: SvUkrXXiFqF0pb7lEP/e1slOjkNr1+x1rtiF3Z0viTM=
+
+Name: intro/css/graphics/obj_48/updates_obj.gif
+SHA-256-Digest: YdufntDgFfoH8y9Z267jvjKUfHApwkjh0KkNzyaJ4Zw=
+
+Name: intro/css/graphics/obj_48/samplepurp_obj.gif
+SHA-256-Digest: MCqfzh3OLT6T25uTwrOKliBe7byTgg9vzx1VkHg9qzU=
+
+Name: META-INF/maven/org.eclipse.datatools.plugins/org.eclipse.datatools
+ .intro/pom.xml
+SHA-256-Digest: 73lKLE697grXpBTs+mrdgQMt4f37QPE4hGUXwwccRn4=
+
+Name: intro/css/graphics/obj_48/dtphov_obj.gif
+SHA-256-Digest: Dgg5dN6knEsBAee1qwHie9yNKbZONLotkyZUckthNgI=
+
+Name: about.mappings
+SHA-256-Digest: 5YrcTS1daIRufZ9uIwKQDPO9r+FdP7zzNbIrOzXH4Bk=
+
+Name: intro/css/tutorials.css
+SHA-256-Digest: 4cVI2aRm3CcepnrOZLQyA5N83/NEsnFe41/CfIS74NQ=
+
+Name: intro/DTP_whatsnew.xml
+SHA-256-Digest: WafElV/yeVsalodk6hgsiP0n175O7eNrDQX3aT8q33c=
+
+Name: about.ini
+SHA-256-Digest: ZoW6zeskcvEqrE2GMAzxNuBM+Dujb29Fql/xyHd5kjc=
+
+Name: plugin.properties
+SHA-256-Digest: zVLlMkehTrT9gaLHXKOgwrwCGLqakvAcy6m/mHfuaCs=
+
+Name: intro/css/samples.css
+SHA-256-Digest: cJ3dDtAaRnWywxdFpfOu0bPtqQzCMpneA0r9mFh6dl4=
+
+Name: intro/DTP_tutorials.xml
+SHA-256-Digest: aIZ+3VUcxXFFSUC5tE9vSrk1gpyrpON/uwcZAM4BphY=
+
+Name: intro/css/graphics/obj_48/samplered_obj.gif
+SHA-256-Digest: PupGkxStFq1HLDChigAqMwFCGzcRYrcf/Wt49KdZfsY=
+
+Name: about.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+
+Name: intro/css/graphics/obj_48/updateshov_obj.gif
+SHA-256-Digest: kb7oF1xlfjldhdDpTd9OZ/hskGY9ul9dtrceO4j1rWQ=
+
+Name: intro/css/graphics/obj_48/dtp_obj.gif
+SHA-256-Digest: XHIj6Dctese8y211XD7a+dsbFE1l2/IwcszeH8h9qu4=
+
+Name: intro/css/overview.css
+SHA-256-Digest: JVP5nIV8uIsRaQlhuMOq4AkSXa13psezaJbAt0j7D6M=
+
+Name: eclipse32.png
+SHA-256-Digest: UATzR3wtZoCeaY5WmWPW+e5lnmthCEsJHmEu8/ZImq4=
+
+Name: intro/css/graphics/obj_48/sampleredhov_obj.gif
+SHA-256-Digest: GIJFPv2BjZXJTU55MJBQtK7ix2mPWzWJPQq2pStmK0I=
+
+Name: intro/css/whatsnew.css
+SHA-256-Digest: YD3x5cwZfciY/wkN/boaV01irLlAl0BIEjXriCQte8I=
+
+Name: intro/css/graphics/obj_48/samplepurphov_obj.gif
+SHA-256-Digest: cn18I6gUVsTiMmfpa69T1LsKYP+ge9DAJHqcG7axY1I=
+
+Name: intro/DTP_overview.xml
+SHA-256-Digest: H+RaFIwoqJwj61i2/yq9YEue+rojVJTc3mrDRUW+oUc=
+
+Name: intro/DTP_samples.xml
+SHA-256-Digest: F/M9wrzdxWEAtZPYjEzsuqBhv7vex9pu9KTiPKbCtJs=
+
+Name: META-INF/maven/org.eclipse.datatools.plugins/org.eclipse.datatools
+ .intro/pom.properties
+SHA-256-Digest: co8t09li2V5keXQTqNGcNyc5NyWbNuVNzoofeOdSl4c=
+

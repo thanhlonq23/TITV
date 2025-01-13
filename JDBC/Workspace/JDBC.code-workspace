@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar",
+			"Bai_4/src/lib/protobuf-java-3.19.4.jar"
+		],
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

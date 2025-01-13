@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="models.HoaDon"><rhs name\="models.HoaDon"/></lhs><lhs name\="DAO.hoadon_DAO"><rhs name\="DAO.hoadon_DAO"/></lhs><lhs name\="models.GiangVien"><rhs name\="models.GiangVien"/></lhs><lhs name\="java.lang.Exception"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.lang.Throwable"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="java.sql.SQLException"><rhs name\="java.sql.SQLException"/></lhs><lhs name\="models.NhanVien"><rhs name\="models.NhanVien"/></lhs><lhs name\="models.Sach"><rhs name\="models.Sach"/></lhs><lhs name\="java.util.regex.MatchResult"><rhs name\="java.util.regex.Matcher"/></lhs></history>
+content_assist_number_of_computers=21
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

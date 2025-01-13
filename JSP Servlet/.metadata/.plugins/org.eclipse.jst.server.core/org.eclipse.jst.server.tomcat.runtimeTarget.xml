@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<classpath>
+  <source-attachment entry="C:/xampp/tomcat/lib/annotations-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/catalina-ant.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/catalina-ha.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/catalina-storeconfig.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/catalina-tribes.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/catalina.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/ecj-4.6.3.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/el-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/jasper-el.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/jasper.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/jaspic-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/jsp-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/servlet-api.jar" runtime-id="Apache Tomcat v8.5" source-attachment-path="C:/Users/Nguyen Long/.m2/repository/org/apache/tomcat/tomcat-servlet-api/8.5.79/tomcat-servlet-api-8.5.79-sources.jar">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-coyote.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-dbcp.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-de.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-es.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-fr.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-ja.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-ko.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-ru.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-i18n-zh-CN.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-jdbc.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-jni.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-util-scan.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-util.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/tomcat-websocket.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-8.5-doc/api/"/>
+  </source-attachment>
+  <source-attachment entry="C:/xampp/tomcat/lib/websocket-api.jar" runtime-id="Apache Tomcat v8.5">
+    <attribute name="javadoc_location" value="https://docs.oracle.com/javaee/7/api/"/>
+  </source-attachment>
+</classpath>

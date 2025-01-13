@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+org.jboss.ide.eclipse.as.classpath.ui.containers.custom.CustomClasspathPreferencePage.LAST_RUNTIME_SELECTED=org.jboss.ide.eclipse.as.runtime.wildfly.270
+org.jboss.ide.eclipse.as.ui.preferences.disabled.automatic.server.view=true
+org.jboss.ide.eclipse.as.ui.preferences.enabledDecorators.1=true
+org.jboss.ide.eclipse.as.ui.wizards.LAST_RUNTIME_CREATED=Apache Tomcat v8.5
+org.jboss.ide.eclipse.as.ui.wizards.LAST_RUNTIME_TYPE_CREATED=org.eclipse.jst.server.tomcat.runtime.85
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_CREATED=Tomcat v8.5 Server at localhost
+org.jboss.ide.eclipse.as.ui.wizards.LAST_SERVER_TYPE_CREATED=org.eclipse.jst.server.tomcat.85

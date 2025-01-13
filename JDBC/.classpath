@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Bai_3/src"/>
+	<classpathentry kind="src" path="Bai_4/src"/>
+	<classpathentry kind="src" path="Bai_5/src"/>
+	<classpathentry kind="src" path="Bai_6/src"/>
+	<classpathentry kind="src" path="Bai_7/src"/>
+	<classpathentry kind="src" path="Bai_8/src"/>
+	<classpathentry kind="lib" path="Bai_3/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_3/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_4/bin/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_4/bin/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_4/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_4/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_5/bin/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_5/bin/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_5/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_5/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_6/bin/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_6/bin/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_6/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_6/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_7/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_7/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="Bai_8/lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="Bai_8/lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="lib/protobuf-java-3.19.4.jar"/>
+	<classpathentry kind="output" path="Bai_3/bin"/>
+</classpath>

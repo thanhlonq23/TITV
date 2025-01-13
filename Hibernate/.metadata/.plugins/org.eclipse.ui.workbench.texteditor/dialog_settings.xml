@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="result"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="null"/>
+			<item value="// TODO Auto-generated method stub"/>
+			<item value="saveOrUpdate"/>
+			<item value="save"/>
+			<item value="Person_DAO"/>
+			<item value="Object"/>
+		</list>
+		<list key="replacehistory">
+			<item value="result"/>
+			<item value="delete"/>
+			<item value="saveOrUpdate"/>
+			<item value="Person"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="724"/>
+		<item key="DIALOG_Y_ORIGIN" value="416"/>
+	</section>
+</section>
