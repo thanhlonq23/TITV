@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+C:\Users\Nguyen Long\Documents\Code\Java\TITV\.metadata\.plugins\org.eclipse.jdt.core
-1983703302.index
-3333804911.index
-2847925851.index
-1865797976.index

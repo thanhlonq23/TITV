@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-file:/C:/Users/Nguyen%20Long/Documents/Code/Java/TITV/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index
