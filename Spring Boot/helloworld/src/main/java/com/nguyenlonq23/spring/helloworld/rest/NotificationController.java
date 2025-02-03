@@ -8,31 +8,33 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class NotificationController {
+    @Autowired
     MessagesService emailService;
+    @Autowired
     MessagesService facebookService;
 
 //    public NotificationController(MessagesService messagesService) {
 //        this.messagesService = messagesService;
 //    }
 
-    @Autowired
-    public void setFacebookService(@Qualifier("facebookService") MessagesService facebookService) {
-        this.facebookService = facebookService;
-    }
-
-    @Autowired
-    public void setEmailService(@Qualifier("emailService") MessagesService emailService) {
-        this.emailService = emailService;
-    }
+//    @Autowired
+//    public void setFacebookService(@Qualifier("facebookService") MessagesService facebookService) {
+//        this.facebookService = facebookService;
+//    }
+//
+//    @Autowired
+//    public void setEmailService(@Qualifier("emailService") MessagesService emailService) {
+//        this.emailService = emailService;
+//    }
 
     @GetMapping("/1")
     public String send1() {
-        return this.facebookService.sendMessage("Welcome to Facebook");
+        return this.facebookService.sendMessage("Welcome to Facebook2");
     }
 
     @GetMapping("/2")
     public String send2() {
-        return this.emailService.sendMessage("Welcome to Email1");
+        return this.emailService.sendMessage("Welcome to Email2");
     }
 }
 
