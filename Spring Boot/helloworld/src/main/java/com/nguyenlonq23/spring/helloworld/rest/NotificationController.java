@@ -6,23 +6,33 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-//@RestController
+@RestController
 public class NotificationController {
-//    private MessagesService email;
-//
-//    @Autowired
-//    public NotificationController(@Qualifier("facebookService") MessagesService email) {
-//        this.email = email;
+    MessagesService emailService;
+    MessagesService facebookService;
+
+//    public NotificationController(MessagesService messagesService) {
+//        this.messagesService = messagesService;
 //    }
-//
-//    @GetMapping("/")
-//    public String send1() {
-//        return "Hello World";
-//    }
-//
-//    @GetMapping("/fb")
-//    public String send() {
-//        return this.email.sendMessage("Welcome to the Fb App");
-//    }
+
+    @Autowired
+    public void setFacebookService(@Qualifier("facebookService") MessagesService facebookService) {
+        this.facebookService = facebookService;
+    }
+
+    @Autowired
+    public void setEmailService(@Qualifier("emailService") MessagesService emailService) {
+        this.emailService = emailService;
+    }
+
+    @GetMapping("/1")
+    public String send1() {
+        return this.facebookService.sendMessage("Welcome to Facebook");
+    }
+
+    @GetMapping("/2")
+    public String send2() {
+        return this.emailService.sendMessage("Welcome to Email1");
+    }
 }
 
