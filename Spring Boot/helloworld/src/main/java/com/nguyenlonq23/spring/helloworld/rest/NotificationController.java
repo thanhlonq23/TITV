@@ -3,38 +3,22 @@ package com.nguyenlonq23.spring.helloworld.rest;
 import com.nguyenlonq23.spring.helloworld.service.MessagesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class NotificationController {
-    @Autowired
-    MessagesService emailService;
-    @Autowired
-    MessagesService facebookService;
-
-//    public NotificationController(MessagesService messagesService) {
-//        this.messagesService = messagesService;
-//    }
-
-//    @Autowired
-//    public void setFacebookService(@Qualifier("facebookService") MessagesService facebookService) {
-//        this.facebookService = facebookService;
-//    }
-//
-//    @Autowired
-//    public void setEmailService(@Qualifier("emailService") MessagesService emailService) {
-//        this.emailService = emailService;
-//    }
+    MessagesService messagesService;
 
     @GetMapping("/1")
     public String send1() {
-        return this.facebookService.sendMessage("Welcome to Facebook2");
+        return this.messagesService.sendMessage();
     }
 
-    @GetMapping("/2")
-    public String send2() {
-        return this.emailService.sendMessage("Welcome to Email2");
+    @Autowired
+    public void setMessagesService(@Qualifier("emailService") MessagesService messagesService) {
+        this.messagesService = messagesService;
     }
 }
 
