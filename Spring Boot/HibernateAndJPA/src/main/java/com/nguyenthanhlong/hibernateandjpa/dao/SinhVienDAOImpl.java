@@ -54,7 +54,7 @@ public class SinhVienDAOImpl implements SinhVienDAO {
         String jpql = "UPDATE SinhVien e SET e.email = :email";
         Query query = this.entityManager.createQuery(jpql);
         query.setParameter("email", "nguyenlonq23@gmail.com");
-        query.executeUpdate();
+        System.out.println("Có " + query.executeUpdate() + " dòng bị thay đổi");
     }
 
     @Override
