@@ -9,9 +9,13 @@ public interface SinhVienDAO {
 
     SinhVien getById(int id);
 
+    List<SinhVien> getByName(String name);
+
     void save(SinhVien sinhVien);
 
     void update(SinhVien sinhVien);
+
+    void updateAllEmail();
 
     void delete(int id);
 

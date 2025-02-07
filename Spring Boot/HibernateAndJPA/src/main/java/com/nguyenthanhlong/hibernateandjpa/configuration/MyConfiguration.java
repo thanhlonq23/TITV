@@ -12,13 +12,15 @@ import java.util.Scanner;
 
 @Configuration
 public class MyConfiguration {
+    private final SinhVienDAOImpl sinhVienDAOImpl;
     private SinhVienDAOImpl svDAO;
     private Scanner sc;
 
     @Autowired
-    public MyConfiguration(SinhVienDAOImpl svDAO) {
+    public MyConfiguration(SinhVienDAOImpl svDAO, SinhVienDAOImpl sinhVienDAOImpl) {
         this.svDAO = svDAO;
         this.sc = new Scanner(System.in);
+        this.sinhVienDAOImpl = sinhVienDAOImpl;
     }
 
     @Bean
@@ -36,7 +38,9 @@ public class MyConfiguration {
             System.out.println("2. Add Sinh Vien");
             System.out.println("3. Update Sinh Vien");
             System.out.println("4. Delete Sinh Vien");
-            System.out.println("5. Find Sinh Vien");
+            System.out.println("5. Find Sinh Vien by Id");
+            System.out.println("6. Find Sinh Vien by Name");
+            System.out.println("7. Update All Email Sinh Vien");
             System.out.println("0. Exit");
             System.out.println("------------------------------------------------------------");
             System.out.print("Nhap lua chon: ");
@@ -60,6 +64,12 @@ public class MyConfiguration {
                 case "5":
                     getById();
                     break;
+                case "6":
+                    getByName();
+                    break;
+                case "7":
+                    sinhVienDAOImpl.updateAllEmail();
+                    break;
                 default:
                     System.out.println("\nInvalid choice. Try again.");
             }
@@ -81,6 +91,12 @@ public class MyConfiguration {
         SinhVien sv = svDAO.getById(sc.nextInt());
         sc.nextLine();
         System.out.println(sv);
+    }
+
+    private void getByName() {
+        System.out.print("Nhap ten: ");
+        List<SinhVien> sinhViens = svDAO.getByName(sc.nextLine());
+        sinhViens.forEach(sv -> System.out.println(sv));
     }
 
     private void delete() {
