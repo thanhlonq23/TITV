@@ -1,4 +1,4 @@
-package com.nguyenlonq23.rest_api.controller;
+package com.nguyenlonq23.rest_api;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
