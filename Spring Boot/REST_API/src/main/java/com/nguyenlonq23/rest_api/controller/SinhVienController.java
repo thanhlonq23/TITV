@@ -1,11 +1,12 @@
 package com.nguyenlonq23.rest_api.controller;
 
+import com.nguyenlonq23.rest_api.entity.ErrorResponse;
 import com.nguyenlonq23.rest_api.entity.SinhVien;
+import com.nguyenlonq23.rest_api.exception.SinhVienException;
 import jakarta.annotation.PostConstruct;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -34,9 +35,36 @@ public class SinhVienController {
     }
 
     @GetMapping("/get/{tuoi}/{khoa}")
-    public List<SinhVien> getStudent(@PathVariable int tuoi, @PathVariable String khoa) {
-        List<SinhVien> result = students.stream().filter(sv -> sv.getNganhHoc().equalsIgnoreCase(khoa)  && sv.getTuoi() <= tuoi).collect(Collectors.toList());
+    public List<SinhVien> getStudent(@PathVariable int tuoi, @PathVariable String khoa) throws SinhVienException {
+        List<SinhVien> result = students.stream().filter(sv -> sv.getNganhHoc().equalsIgnoreCase(khoa) && sv.getTuoi() <= tuoi).collect(Collectors.toList());
+        if (result.size() == 0) {
+            throw new SinhVienException("Không tìm thấy sinh viên nào");
+        }
+
         result.sort(Comparator.comparing(SinhVien::getId));
         return result;
+    }
+
+    @GetMapping("/get/{index}")
+    public SinhVien getStudent(@PathVariable int index) throws SinhVienException {
+        SinhVien sv = null;
+        try {
+            sv = students.get(index);
+        } catch (Exception e) {
+            throw new SinhVienException("Không tìm thấy sinh viên nào");
+        }
+        return sv;
+    }
+
+    @ExceptionHandler
+    public ResponseEntity<ErrorResponse> catchError(SinhVienException e) {
+        ErrorResponse er = new ErrorResponse(HttpStatus.NOT_FOUND.value(), e.getMessage());
+        return ResponseEntity.status(HttpStatus.NOT_FOUND).body(er);
+    }
+
+    @ExceptionHandler
+    public ResponseEntity<ErrorResponse> catchAllError(Exception e) {
+        ErrorResponse er = new ErrorResponse(HttpStatus.BAD_REQUEST.value(), e.getMessage());
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(er);
     }
 }
