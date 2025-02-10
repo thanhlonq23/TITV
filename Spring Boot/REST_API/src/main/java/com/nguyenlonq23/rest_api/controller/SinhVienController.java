@@ -33,9 +33,9 @@ public class SinhVienController {
         return students;
     }
 
-    @GetMapping("/get/{id}")
-    public List<SinhVien> getStudent(@PathVariable int id) {
-        List<SinhVien> result = students.stream().filter(sv -> sv.getNganhHoc() == "CNTT" && sv.getTuoi() <= 23).collect(Collectors.toList());
+    @GetMapping("/get/{tuoi}/{khoa}")
+    public List<SinhVien> getStudent(@PathVariable int tuoi, @PathVariable String khoa) {
+        List<SinhVien> result = students.stream().filter(sv -> sv.getNganhHoc().equalsIgnoreCase(khoa)  && sv.getTuoi() <= tuoi).collect(Collectors.toList());
         result.sort(Comparator.comparing(SinhVien::getId));
         return result;
     }
