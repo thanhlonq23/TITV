@@ -37,7 +37,7 @@ public class SinhVienController {
     @GetMapping("/get/{tuoi}/{khoa}")
     public List<SinhVien> getStudent(@PathVariable int tuoi, @PathVariable String khoa) throws SinhVienException {
         List<SinhVien> result = students.stream().filter(sv -> sv.getNganhHoc().equalsIgnoreCase(khoa) && sv.getTuoi() <= tuoi).collect(Collectors.toList());
-        if (result.size() == 0) {
+        if (result.isEmpty()) {
             throw new SinhVienException("Không tìm thấy sinh viên nào");
         }
 
