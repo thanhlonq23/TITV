@@ -17,5 +17,5 @@ public interface SinhVienService {
 
     public ResponseEntity<SinhVien> saveAndFlushSinhVien(SinhVien sv);
 
-    public void deleteSinhVien(SinhVien sinhvien);
+    public void deleteSinhVien(int id);
 }

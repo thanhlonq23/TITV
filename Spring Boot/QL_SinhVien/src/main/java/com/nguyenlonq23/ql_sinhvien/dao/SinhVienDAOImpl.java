@@ -5,10 +5,6 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -27,13 +23,12 @@ public class SinhVienDAOImpl implements SinhVienDAO {
     }
 
     @Override
-    @Transactional
-    public void delete(SinhVien sinhVien) {
+    public void delete(int id) {
+        SinhVien sinhVien = this.entityManager.find(SinhVien.class, id);
         entityManager.remove(sinhVien);
     }
 
     @Override
-    @Transactional
     public SinhVien saveAndFlush(SinhVien sinhVien) {
         sinhVien = entityManager.merge(sinhVien);
         entityManager.flush();
@@ -41,7 +36,6 @@ public class SinhVienDAOImpl implements SinhVienDAO {
     }
 
     @Override
-    @Transactional
     public SinhVien save(SinhVien sinhVien) {
         entityManager.persist(sinhVien);
         return sinhVien;

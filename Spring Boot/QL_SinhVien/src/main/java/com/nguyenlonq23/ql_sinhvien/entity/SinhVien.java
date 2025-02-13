@@ -1,7 +1,6 @@
 package com.nguyenlonq23.ql_sinhvien.entity;
 
 import jakarta.persistence.*;
-import org.springframework.context.annotation.Primary;
 
 @Entity
 @Table(name = "sinhvien")

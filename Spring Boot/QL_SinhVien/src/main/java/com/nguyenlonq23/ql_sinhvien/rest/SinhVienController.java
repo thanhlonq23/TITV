@@ -1,4 +1,4 @@
-package com.nguyenlonq23.ql_sinhvien.controller;
+package com.nguyenlonq23.ql_sinhvien.rest;
 
 import com.nguyenlonq23.ql_sinhvien.entity.SinhVien;
 import com.nguyenlonq23.ql_sinhvien.service.SinhVienService;
@@ -38,14 +38,22 @@ public class SinhVienController {
         return service.saveSinhVien(sv);
     }
 
-    @PostMapping("/saveandflush/{sv}")
-    public ResponseEntity<SinhVien> saveAndFlushSinhVien(@PathVariable SinhVien sv) {
-        return service.saveAndFlushSinhVien(sv);
+    @PutMapping("/saveandflush/{id}")
+    public ResponseEntity<SinhVien> saveAndFlushSinhVien(@PathVariable int id, @RequestBody SinhVien sv) {
+        SinhVien existingStudent = service.getSinhVienById(id);
+        if (existingStudent != null) {
+            existingStudent.setEmail(sv.getEmail());
+            existingStudent.setFirstName(sv.getFirstName());
+            existingStudent.setLastName(sv.getLastName());
+            service.saveAndFlushSinhVien(existingStudent);
+            return ResponseEntity.ok(existingStudent);
+        }
+        return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/delete/{sinhvien}")
-    public void deleteSinhVien(@PathVariable SinhVien sinhvien) {
-        service.deleteSinhVien(sinhvien);
+    @DeleteMapping("/delete/{id}")
+    public void deleteSinhVien(@PathVariable int id) {
+        service.deleteSinhVien(id);
     }
 
 }

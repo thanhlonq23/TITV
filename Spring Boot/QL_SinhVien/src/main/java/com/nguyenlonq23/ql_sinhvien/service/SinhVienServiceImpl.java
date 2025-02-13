@@ -5,6 +5,7 @@ import com.nguyenlonq23.ql_sinhvien.entity.SinhVien;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -35,19 +36,23 @@ public class SinhVienServiceImpl implements SinhVienService {
     }
 
     @Override
+    @Transactional
     public ResponseEntity<SinhVien> saveSinhVien(SinhVien sv) {
         if (sinhVienDAO.save(sv) == null) return ResponseEntity.noContent().build();
         return ResponseEntity.ok(sv);
     }
 
     @Override
+    @Transactional
+
     public ResponseEntity<SinhVien> saveAndFlushSinhVien(SinhVien sv) {
         if (sinhVienDAO.saveAndFlush(sv) == null) return ResponseEntity.noContent().build();
         return ResponseEntity.ok(sv);
     }
 
     @Override
-    public void deleteSinhVien(SinhVien sinhvien) {
-        sinhVienDAO.delete(sinhvien);
+    @Transactional
+    public void deleteSinhVien(int id) {
+        sinhVienDAO.delete(id);
     }
 }
