@@ -18,27 +18,27 @@ public class SinhVienController {
         this.service = service;
     }
 
-    @RequestMapping("/all")
+    @GetMapping()
     public List<SinhVien> getAllSinhVien() {
         return service.getAllSinhVien();
     }
 
-    @RequestMapping("/id/{id}")
+    @GetMapping("/{id}")
     public SinhVien getSinhVienById(@PathVariable int id) {
         return service.getSinhVienById(id);
     }
 
-    @RequestMapping("/name/{name}")
+    @GetMapping("/name/{name}")
     public List<SinhVien> getSinhVienById(@PathVariable String name) {
-        return service.getSinhVienByName(name);
+    return service.getSinhVienByName(name);
     }
 
-    @PostMapping("/save")
+    @PostMapping()
     public ResponseEntity<SinhVien> saveSinhVien(@RequestBody SinhVien sv) {
         return service.saveSinhVien(sv);
     }
 
-    @PutMapping("/saveandflush/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<SinhVien> saveAndFlushSinhVien(@PathVariable int id, @RequestBody SinhVien sv) {
         SinhVien existingStudent = service.getSinhVienById(id);
         if (existingStudent != null) {
@@ -51,7 +51,7 @@ public class SinhVienController {
         return ResponseEntity.notFound().build();
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/{id}")
     public void deleteSinhVien(@PathVariable int id) {
         service.deleteSinhVien(id);
     }
